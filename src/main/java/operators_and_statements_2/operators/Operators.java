@@ -1,4 +1,4 @@
-package operators_and_statements_2;
+package operators_and_statements_2.operators;
 
 public class Operators {
 //    there 3 types of operators in Java

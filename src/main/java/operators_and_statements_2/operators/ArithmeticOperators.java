@@ -1,4 +1,4 @@
-package operators_and_statements_2;
+package operators_and_statements_2.operators;
 
 public class ArithmeticOperators {
 //    arithmetic are encountered in mathematics
