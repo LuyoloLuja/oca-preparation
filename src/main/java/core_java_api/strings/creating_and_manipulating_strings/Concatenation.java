@@ -1,4 +1,4 @@
-package core_java_api.creating_and_manipulating_strings;
+package core_java_api.strings.creating_and_manipulating_strings;
 
 public class Concatenation {
 //    concatenation is placing one string before another string and combining them

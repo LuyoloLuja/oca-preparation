@@ -1,4 +1,4 @@
-package core_java_api.string_methods;
+package core_java_api.strings.string_methods;
 
 public class StringMethods {
     public static void main(String[] args) {

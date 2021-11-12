@@ -1,4 +1,4 @@
-package core_java_api.creating_and_manipulating_strings;
+package core_java_api.strings.creating_and_manipulating_strings;
 
 public class StringPool {
 //    the string pool , also known as the intern pool

@@ -1,4 +1,4 @@
-package core_java_api.creating_and_manipulating_strings;
+package core_java_api.strings.creating_and_manipulating_strings;
 
 class Mutable {
     //    once string object is created it is not allowed to change
