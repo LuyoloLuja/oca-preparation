@@ -1,7 +1,6 @@
 package core_java_api.wrapper_classes;
 
 import java.util.ArrayList;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.List;
 
