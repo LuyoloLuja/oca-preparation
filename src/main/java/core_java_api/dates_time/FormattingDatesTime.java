@@ -28,5 +28,21 @@ public class FormattingDatesTime {
         System.out.println(shortDateTime.format(dateTime));
         System.out.println(shortDateTime.format(date));
 //        System.out.println(shortDateTime.format(time));     // RuntimeException
+
+        DateTimeFormatter shortF = DateTimeFormatter.ofLocalizedDateTime(FormatStyle.SHORT);
+        DateTimeFormatter mediumF = DateTimeFormatter.ofLocalizedDateTime(FormatStyle.MEDIUM);
+        System.out.println(shortF);
+        System.out.println(mediumF);
+
+//        creating own format style
+        DateTimeFormatter f = DateTimeFormatter.ofPattern("MMMM dd, yyyy, hh:mm");
+        System.out.println(f);
+
+//        parsing date and time
+        DateTimeFormatter f2 = DateTimeFormatter.ofPattern("MM dd yyyy");
+        LocalDate date2 = LocalDate.parse("01 02 2015", f2);
+        LocalTime time1 = LocalTime.parse("11:22");
+        System.out.println(date2);
+        System.out.println(time1);
     }
 }
