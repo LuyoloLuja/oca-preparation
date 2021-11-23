@@ -1,4 +1,4 @@
-package methods_encapsulation_4.Constructors;
+package methods_encapsulation_4.constructors;
 
 public class Bunny {
 //    common way of writing a constructor

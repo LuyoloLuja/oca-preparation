@@ -1,4 +1,4 @@
-package methods_encapsulation_4.Constructors;
+package methods_encapsulation_4.constructors;
 
 public class DefaultConstructor {
 //    if you don't code a constructor java will create one for you - without a parameter

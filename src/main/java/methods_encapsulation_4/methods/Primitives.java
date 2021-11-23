@@ -1,4 +1,4 @@
-package methods_encapsulation_4;
+package methods_encapsulation_4.methods;
 
 public class Primitives {
     public void fly(int i) {

@@ -1,4 +1,4 @@
-package methods_encapsulation_4;
+package methods_encapsulation_4.methods;
 
 public class ReferenceTypes {
     public void fly(String s) {

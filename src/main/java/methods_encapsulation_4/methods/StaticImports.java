@@ -1,4 +1,4 @@
-package methods_encapsulation_4;
+package methods_encapsulation_4.methods;
 
 import java.util.List;
 import static java.util.Arrays.asList;

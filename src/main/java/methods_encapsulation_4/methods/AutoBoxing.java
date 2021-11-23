@@ -1,4 +1,4 @@
-package methods_encapsulation_4;
+package methods_encapsulation_4.methods;
 
 public class AutoBoxing {
 //    Java will find the most specific value, if it is not found then it will do autoboxing
