@@ -11,10 +11,12 @@ public class TraditionalSearch {
         animals.add(new Animal("rabbit", true, false));
         animals.add(new Animal("turtle", false, true));
 
-        print(animals, new CheckIfHopper());
+//        print(animals, new CheckIfHopper());  //
+        print(animals, animal -> animal.canSwim()); // returns animals that can swim
+        print(animals, animal -> ! animal.canSwim());   // returns animals that can't swim
     }
 
-    private static void print(List<Animal> animals, CheckTrait checkTrait) {
+    static void print(List<Animal> animals, CheckTrait checkTrait) {
         for (Animal animal : animals) {
             if (checkTrait.test(animal))
                 System.out.print(animal + " ");
