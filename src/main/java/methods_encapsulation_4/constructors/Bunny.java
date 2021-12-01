@@ -3,6 +3,7 @@ package methods_encapsulation_4.constructors;
 public class Bunny {
 //    common way of writing a constructor
     private String name;
+    char c = 10;
     public Bunny(String name) {
         this.name = name;
     }
