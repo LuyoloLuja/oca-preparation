@@ -27,7 +27,7 @@ class Lion extends Animal {
     }
 
     public static void main(String[] args) {
-//        System.out.println(age);  // does not compile - age is marked private, but we can accees it via the setter method
+//        System.out.println(age);  // does not compile - age is marked private, but we can access it via the setter method
         Lion lion = new Lion();
         lion.setAge(10);    // compiles fine
         lion.roar();
